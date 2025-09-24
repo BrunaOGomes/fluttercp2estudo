@@ -1,7 +1,14 @@
-//define o pai e seus parametros
 class Explorer {
-  String name;
-  String age;
+  final String name;
+  final String age;
 
   Explorer({required this.name, required this.age});
+
+  String presenterName(){
+    return "Nome: $name";
+  }
+
+  String presenterAge(){
+    return "Idade: $age";
+  }
 }
